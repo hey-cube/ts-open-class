@@ -13,7 +13,7 @@ first: () => T | undefined;
 <!-- prettier-ignore-start -->
 ```typescript
 [1, 2, 3].first();  // 1
-["a", "b"].first(); // 'a'
+["a", "b"].first(); // "a"
 [].first();         // undefined
 ```
 <!-- prettier-ignore-end -->
@@ -31,7 +31,7 @@ last: () => T | undefined;
 <!-- prettier-ignore-start -->
 ```typescript
 [1, 2, 3].last();  // 1
-["a", "b"].last(); // 'a'
+["a", "b"].last(); // "a"
 [].last();         // undefined
 ```
 <!-- prettier-ignore-end -->
